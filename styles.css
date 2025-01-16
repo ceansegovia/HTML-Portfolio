@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light gray background for the body */
+    color: black;
+}
+
+/* Hero Section (Name and Title) */
+.hero {
+    text-align: center;
+    background-color: #3b3b3b; /* Dark gray background */
+    color: white;
+    padding: 60px 20px; 
+}
+
+.hero h1 {
+    font-size: 3em; /* Larger font for your name */
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 1.5em; /* Smaller font for the title */
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f7f7f7; /* Slightly darker white for the outside of the rectangle */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    background-color: white;
+    width: 75%; /* The centered white rectangle takes up about 3/4 of the screen */
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the rectangle */
+}
+
+/* Profile Image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    border: 5px solid white; /* White border around the image */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* About Me Text */
+.about-text h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+/* Navigation Links */
+.links {
+    display: flex;
+    justify-content: space-around; /* Evenly spread out links */
+    margin-top: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Hover effect for the nav links */
+nav.links a:hover {
+    background-color: #8b7979;
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; 
+    color: black;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #3b3b3b; 
+    color: white;
+    padding: 60px 20px; 
+}
+
+.hero h1 {
+    font-size: 3em; 
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 1.5em; 
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f7f7f7; 
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    background-color: white;
+    width: 75%; 
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Profile Image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 5px solid white; 
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* About Me Text */
+.about-text h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+/* Navigation Links */
+.links {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #333;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #8b7979;
+}

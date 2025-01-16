@@ -1,0 +1,50 @@
+/* Header styles */
+header {
+    background-color: #3b3b3b; 
+    text-align: center;
+    padding: 70px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: white;
+}
+
+/* Main container */
+.container {
+    background-color: #e0e0e0; 
+    padding: 75px;
+}
+
+/* Flexbox layout for the project section */
+.project-section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+/* Image styles */
+.project-image {
+    width: 40%; 
+    height: auto; 
+    margin-right: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Project description styles */
+.project-description {
+    flex: 1; 
+}
+
+.project-description h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.project-description p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
