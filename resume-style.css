@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.left-column {
+    background-color: #f2f2f2;
+    color: black; 
+    width: 28%;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding-left: 40px; 
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info p {
+    font-size: 16px; 
+    margin: 0; 
+    font-weight: normal; 
+    display: flex; 
+    align-items: center;
+}
+
+.contact-info a {
+    color: #2d2d2d; 
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; 
+    color: lightblue;
+}
+
+.contact-icon {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+}
+
+.skills-section {
+    margin-top: 40px;
+}
+
+.skills-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.skills-section ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+.skills-section li {
+    font-size: 14px;
+    color: black; 
+    margin-bottom: 10px; 
+}
+
+.right-content {
+    width: 72%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.skills-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills-section li {
+    font-size: 14px;
+    color: black; 
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.right-content {
+    width: 72%;
+    padding: 40px;  
+    box-sizing: border-box;
+}
+
+.name-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px; 
+    color: #2d2d2d;  
+    margin: 0;
+    padding: 0;
+    text-align: left;  
+}
+.separator {
+    border: none;
+    border-top: 1px solid #2d2d2d;
+    width: 90%;
+    margin: 10px 0;
+}
+.subheader {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #2d2d2d;
+}
+
+.education-section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.education-section p {
+    margin: 5px 0;
+}
+
+.grad-date {
+    float: right;
+    font-style: italic;
+}
+
+.role {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.role em {
+    flex: 1;
+    text-align: left;
+}
+
+.role .date {
+    flex: none;
+    text-align: right;
+    font-size: 14px;
+    color: #333;
+}
+
+
