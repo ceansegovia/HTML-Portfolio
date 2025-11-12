@@ -17,18 +17,35 @@ h1 {
     padding: 75px;
 }
 
-/* Flexbox layout for the project section */
+/* Flexbox layout for the project section (Horizontal layout: Image column + Description) */
 .project-section {
     display: flex;
     align-items: flex-start;
     margin-bottom: 30px;
 }
 
-/* Image styles */
-.project-image3 {
+/* New: Flexbox layout for the image column (Vertical layout: Project 3 on top of Project 2) */
+.image-column {
+    display: flex;
+    flex-direction: column; /* Stacks images vertically */
+    /* This makes the image column take up the same width as the images did before */
     width: 40%; 
-    height: auto; 
     margin-right: 20px; 
+}
+
+/* Image styles - Adjust width to 100% of their new parent (.image-column) */
+.project-image3 {
+    width: 100%; /* Takes full width of the image-column */
+    height: auto; 
+    margin-bottom: 20px; /* Add space below project 3 image */
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.project-image2 {
+    width: 100%; /* Takes full width of the image-column */
+    height: auto; 
+    /* Removed margin-right as it's stacked vertically */
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
